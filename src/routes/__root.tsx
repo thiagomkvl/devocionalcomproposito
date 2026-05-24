@@ -72,14 +72,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Presença Diária" },
+      { name: "description", content: "A fé cresce no silêncio da manhã, antes do mundo fazer barulho.
+O Presença Diária é um devocional diário entregue no seu WhatsApp às 6h —" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Presença Diária" },
+      { property: "og:description", content: "A fé cresce no silêncio da manhã, antes do mundo fazer barulho.
+O Presença Diária é um devocional diário entregue no seu WhatsApp às 6h —" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Presença Diária" },
+      { name: "twitter:description", content: "A fé cresce no silêncio da manhã, antes do mundo fazer barulho.
+O Presença Diária é um devocional diário entregue no seu WhatsApp às 6h —" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d273888e-b594-4495-8f67-e37fad793ea1/id-preview-bab6e97f--15f14145-ed35-497a-8879-8b9a5f37b689.lovable.app-1779639348297.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d273888e-b594-4495-8f67-e37fad793ea1/id-preview-bab6e97f--15f14145-ed35-497a-8879-8b9a5f37b689.lovable.app-1779639348297.png" },
     ],
     links: [
       {
